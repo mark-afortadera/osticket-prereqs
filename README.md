@@ -181,3 +181,59 @@ From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.</p
 <p>New Permissions-> Everyone-> All</p>
 <p>(*Note: for the sake of this example, I'll be assigning permissions to "everyone" on this demonstration)</p>
 <br />
+
+![Screenshot 2025-02-12 214451](https://github.com/user-attachments/assets/f5ff2e20-7e17-4e0e-8eda-2742f9ede9ce)
+
+<p>From the “osTicket-Installation-Files” folder, install HeidiSQL.</p>
+<br />
+
+![Screenshot 2025-02-12 214605](https://github.com/user-attachments/assets/34f8b428-400d-4342-9a76-da10061e7709)
+![Screenshot 2025-02-12 214652](https://github.com/user-attachments/assets/687cf079-e5fe-4b19-834b-dabeb1e31787)
+
+<p>Open Heidi SQL</p>
+<br />
+
+![Screenshot 2025-02-12 214733](https://github.com/user-attachments/assets/09173de2-ea96-404a-9e03-9688892175f9)
+
+<p>Create a new session, root/root</p>
+<br />
+
+![Screenshot 2025-02-12 214845](https://github.com/user-attachments/assets/3517acf8-7197-4ce9-b6e3-6fa07dedf9c4)
+
+<p>Create a database called “osTicket”</p>
+<br />
+
+![Screenshot 2025-02-12 214923](https://github.com/user-attachments/assets/a62b2f9d-59ed-4e84-b38b-b7327a555f15)
+![Screenshot 2025-02-12 214948](https://github.com/user-attachments/assets/043c058f-430a-4f73-a53f-200957fbbd4e)
+
+<p>Connect to the session</p>
+<br />
+
+![Screenshot 2025-02-12 213945](https://github.com/user-attachments/assets/2db36a30-2cac-41ea-aa6a-d8a926a3a081)
+![Screenshot 2025-02-12 214058](https://github.com/user-attachments/assets/82499e3c-cc2b-452a-8b8e-b2a85b80bad1)
+<p>Continue Setting up osTicket in the browser</p>
+<br />
+
+![Screenshot 2025-02-12 220731](https://github.com/user-attachments/assets/ebd347d3-8373-4187-825d-c543e9a63fab)
+
+<p>- MySQL Database: osTicket</p>
+<p>- MySQL Username: root</p>
+<p>- MySQL Password: root</p>
+<p>- Click “Install Now!”</p>
+<br />
+
+![Screenshot 2025-02-12 221357](https://github.com/user-attachments/assets/9ca8550c-dfd1-44a2-991a-483a2892563d)
+
+<p>osTicketing system installed!</p>
+<br />
+
+![Screenshot 2025-02-12 221728](https://github.com/user-attachments/assets/78b83e7b-c0ee-4952-a249-166030014f41)
+![Screenshot 2025-02-12 221748](https://github.com/user-attachments/assets/5a036cd9-3103-43ee-ab32-b7a8ec630825)
+
+<p>Browse to your help desk login page: http://localhost/osTicket/scp/login.php</p>
+<br />
+
+![Screenshot 2025-02-12 221958](https://github.com/user-attachments/assets/6369d5b4-9f3d-4adb-8f9d-a8449877fdfe)
+
+<p>End Users osTicket URL: http://localhost/osTicket/</p>
+<br />
