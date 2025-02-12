@@ -18,11 +18,14 @@ This project outlines the prerequisites and installation of the open-source help
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create an Azure Virtual Machine Windows 10, 2 vCPUs
+- Log into the VM with Remote Desktop
+- Install / Enable IIS in Windows WITH CGI
+- Install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- Install the Rewrite Module (rewrite_amd64_en-US.msi)
+- Install VC_redist.x86.exe.
+- Install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+- Install osTicket v1.15.8
 
 <h2>Installation Steps</h2>
 
@@ -31,42 +34,42 @@ This project outlines the prerequisites and installation of the open-source help
 ![Screenshot 2025-02-12 180512](https://github.com/user-attachments/assets/cd9eb47f-560e-4531-a611-4ee31cf88080)
 
 <p>
-In this project, I created an osTicketing system using a virtual machine in Microsoft Azure Cloud based Platform.
+Create an osTicketing system using a virtual machine in Microsoft Azure Cloud based Platform.
 </p>
 <br />
 
 ![Screenshot 2025-02-12 180710](https://github.com/user-attachments/assets/2f64acb5-0d92-47a5-9d31-a979d183c6d0)
 
 <p>
-Then I opened the virtual machine using Remote Desktop.
+Open the virtual machine using Remote Desktop.
 </p>
 <br />
 
 ![Screenshot 2025-02-12 181034](https://github.com/user-attachments/assets/3089b0a2-c942-4859-866e-1c64c3ef59c9)
 
 <p>
-In this step, I've downloaded the osTicketing system file from the source then extracted the files into the desktop.
+Download the osTicketing system file from the source then extract the files into the desktop.
 </p>
 <br />
 
 ![Screenshot 2025-02-12 183441](https://github.com/user-attachments/assets/54c6681e-8d7f-46bf-80a5-600958b532f3)
 
 <p>
-Next I Installed / Enabled IIS in Windows WITH CGI
+Install/ Enabled IIS in Windows WITH CGI
 World Wide Web Services-> Application Development Features-> [X] CGI</p>
 <br />
 
 ![Screenshot 2025-02-12 184154](https://github.com/user-attachments/assets/407942c7-2a85-4ee3-a07e-a242e17cddbe)
 
 <p>
-From the “osTicket-Installation-Files” folder, I've installed PHP Manager for IIS
+From the “osTicket-Installation-Files” folder, Install PHP Manager for IIS
  (PHPManagerForIIS_V1.5.0.msi)</p>
 <br />
 
 ![Screenshot 2025-02-12 184247](https://github.com/user-attachments/assets/d43b963b-39ce-4d50-9479-5dc78deda72c)
 
 <p>
-From the “osTicket-Installation-Files” folder, I've installed the Rewrite Module
+From the “osTicket-Installation-Files” folder, Install the Rewrite Module
  (rewrite_amd64_en-US.msi)</p>
 <br />
 
@@ -74,7 +77,7 @@ From the “osTicket-Installation-Files” folder, I've installed the Rewrite Mo
 ![Screenshot 2025-02-12 184639](https://github.com/user-attachments/assets/8d18a845-f930-413d-a4a1-ce9ca3b2e28f)
 
 <p>
-Then I created the directory C:\PHP and from the “osTicket-Installation-Files” folder, I unzipped PHP 7.3.8
+Create the directory C:\PHP and from the “osTicket-Installation-Files” folder, unzip PHP 7.3.8
  (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder</p>
 <br />
 
